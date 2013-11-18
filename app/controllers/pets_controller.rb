@@ -4,4 +4,8 @@ class PetsController < ApplicationController
 
   def second
   end
+
+  def third
+  end
+
 end
