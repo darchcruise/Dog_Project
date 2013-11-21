@@ -2,10 +2,10 @@
     <!-- row 1 -->
     <header class="row">
         <div class="col-lg-6 col-sm-5">
-            <a href="index.html"><img src="img/logo.png" alt="Wisdom Pets. click for home." class="img-responsive"></a>
+            <a href="index.html"><img src="/assets/logo.png" alt="Wisdom Pets. click for home." class="img-responsive"></a>
         </div>
         <div class="col-lg-6 col-sm-7">
-            <img src="img/animals.jpg" alt="" class="hidden-xs img-responsive">
+            <img src="/assets/animals.jpg" alt="" class="hidden-xs img-responsive">
         </div>
     </header>
 
@@ -43,7 +43,8 @@
         <aside class="col-lg-6 col-md-5">
             <h3>Contact information</h3>
             <p>Contacting us is a breeze! Refer to this handy table for contact information.</p>
-              <table>
+            <div class="table-responsive">
+              <table class="table table-hover">
                 <thead>
                   <tr>
                     <th>Doctor's Name</th>
@@ -69,6 +70,7 @@
                   </tr>
                 </tbody>
               </table>
+            </div>
          </aside>
 
 
@@ -80,7 +82,7 @@
          <p><small>Wisdom Pet Medicine is a training brand owned by lynda.com.</small></p>
     </footer>
 
-<%= link_to "Home", "first",  class: "btn btn-primary" %>
+<%= render "links" %>
 
 </div> <!-- end container -->
 

@@ -1,2 +1,12 @@
 @import "bootstrap";
 
+
+// Enter custom css styling aka non-bootstrap styling in this file. This way we can use our own css along w bootstrap
+
+footer {
+  padding: 2em 0;
+  margin: 3em 0;
+  border-top: 1px solid #ddd;
+  color: 999;
+  text-align: center;
+}
